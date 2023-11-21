@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainhome{
+  background-color: aliceblue;
+}
+
+main {
+  background-color: darkblue;
+}
+
+.div{
+  width: 35%;
+}
+
+#button{
+  text-align: center;
+}
+
