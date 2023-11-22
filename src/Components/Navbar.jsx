@@ -7,7 +7,7 @@ export default function NavBar() {
         <Link to="/dimsums">DimSums</Link>
       </h1>
       <Link to="/dimsums/new"> 
-      <button> New DimSums</button>
+      <button onClick={<Link to="/dimsums/new"/>}> New DimSums</button>
       </Link>
       </nav>
   );

@@ -22,18 +22,22 @@ function DimSum() {
   return (
     <>
       <div className="DimSums">
+        <h2>DimSum</h2>
+        <h2>DimSumDetails</h2>
+        <h2>DimSumEdit</h2>
+        <h2>DimSumsNew</h2>
+        <h2>DimSumReview</h2>
         <section>
           <table>
             <thead>
-              <tr>
-                <th>Favorite</th>
-                <th>See this Dimsums</th>
-                <th>quantity</th>
-              </tr>
             </thead>
             <tbody>
               {dimsum.map((dimsums, index) => (
                 <tr key={index}>
+                  <td>
+
+                  <img src={`/images/${dimsums.name}`}/>
+                  </td>
                   <td>{dimsums.fav}</td>
                   <td><a href={`/dimsums/${dimsums.id}`}>{dimsums.name}</a></td>
                   <td>{dimsums.quantity}</td>

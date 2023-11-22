@@ -9,6 +9,7 @@ import New from "./Pages/New";
 import Show from "./Pages/Show";
 import DimSumsFourOFour from './Pages/DimSumsFourofFour';
 import DimSum from './Components/DimSums';
+import Footer from './Pages/Footer';
 // Components
 import Navbar from "./Components/Navbar";
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="*" element={<DimSumsFourOFour />} />
           </Routes>
         </main>
+        <Footer/>
       </Router>
     </div>
   );
