@@ -10,10 +10,19 @@ Usage
 Contributing
 License
 Getting Started
-1. Clone the repository: https://github.com/JackieC1993/full-stack-portfolio-frontend.git
-2. Cd https://github.com/JackieC1993/full-stack-portfolio-frontend.git
-3. Npm run dev
-4. Open http://localhost:8888 in your browser to view it in action!
+1. Clone the repository: https://github.com/JackieC1993/Dimsum_Frontend.git
+2. Cd https://github.com/JackieC1993/Dimsum_Frontend.git
+3. Npm Install  
+    "bootstrap": "^5.3.2",
+    "dotenv": "^16.3.1",
+    "pg-promise": "^11.5.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.19.0"
+4. Npm run dev
+5. Open http://localhost:8888 in your browser to view it in action!
 
 Features
 View a list of dimsums.
@@ -56,7 +65,7 @@ Feel free to customize the content based on your project's specific details.
 
 Backend and Frontend Links
 
-Link to the Frontend Repository: https://github.com/JackieC1993/full-stack-portfolio-frontend.git
+Link to the Frontend Repository: https://github.com/JackieC1993/Dimsum_Frontend.git
 Link to the Backend Repository: https://github.com/JackieC1993/full-stack-portfolio-backend.git
 
 

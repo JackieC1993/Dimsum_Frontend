@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import DimSumsReviews from "./DimSumReviews";
-import DimSumsReviewForm from "./DimSumsReviewForm";
 
 
 const API = import.meta.env.VITE_REACT_API_URL;
